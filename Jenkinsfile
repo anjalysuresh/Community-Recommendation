@@ -8,6 +8,15 @@ node {
   } 
  // sh 'git submodule update --init'  
 
+
+stage('build') {
+            
+                echo 'Building..'
+                
+                sh "./recommendation.sh" 
+            
+        }  
+
   //stage 'Stage Build'
   
   
