@@ -1,5 +1,5 @@
 #!/bin/bash
-cd Community-Recommendation/        
+cd Recommendation/        
 sudo docker-compose build        
 sudo nano Dockerfile         
 sudo docker-compose build        
